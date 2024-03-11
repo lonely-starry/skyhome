@@ -38,14 +38,14 @@ const bgRandom = Math.floor(Math.random() * 10 + 1);
 
 // 更换壁纸链接
 const changeBg = (type) => {
-  if (type == 4) {
-    bgUrl.value = `/images/background${bgRandom}.jpg`;
+  if (type == 0) {
+    bgUrl.value = "https://api.lonelyx.cn/api/";
   } else if (type == 1) {
     bgUrl.value = "https://api.dujin.org/bing/1920.php";
   } else if (type == 2) {
     bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
-  } else if (type == 0) {
-    bgUrl.value = "https://api.lonelyx.cn/api/";
+  } else if (type == 3) {
+    bgUrl.value = `/images/background${bgRandom}.jpg`;
   }
 };
 
