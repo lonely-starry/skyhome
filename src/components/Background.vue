@@ -45,7 +45,7 @@ const changeBg = (type) => {
   } else if (type == 2) {
     bgUrl.value = "https://api.aixiaowai.cn/gqapi/gqapi.php";
   } else if (type == 3) {
-    bgUrl.value = "https://api.aixiaowai.cn/api/api.php";
+    bgUrl.value = "https://api.lonelyx.cn/api/";
   }
 };
 
