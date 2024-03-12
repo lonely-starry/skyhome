@@ -15,12 +15,12 @@
     "name": "QQ",
     "icon": "/images/icon/qq.png",
     "tip": "有什么事吗",
-    "url": "https://res.abeim.cn/api/qq/?qq=2504485277"
+    "url": "https://res.abeim.cn/api/qq/?qq=1741713961"
   },
   {
     "name": "Email",
     "icon": "/images/icon/email.png",
     "tip": "来封 Email ~",
-    "url": "mailto:lonely-x@outlook.com"
+    "url": "mailto:1741713961@qq.com"
   }
 ]
