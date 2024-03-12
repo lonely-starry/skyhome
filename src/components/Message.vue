@@ -17,7 +17,7 @@
         </Icon>
         <div class="text">
           <p>{{ descriptionText.hello }}</p>
-          <p>{{ descriptionText.text }}</p>
+          <p class="typewriter">{{ descriptionText.text }}</p>
         </div>
         <Icon size="16">
           <QuoteRight />
@@ -184,6 +184,25 @@ watch(
     }
     .description {
       margin-top: 2.5rem;
+    }
+  }
+  .typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    animation: typing 5s steps(100, start) 1;
+    /* 文字逐个出现 */
+  }
+
+  /* 打字动画 */
+  @keyframes typing {
+    from {
+    width: 0;
+    }
+
+    to {
+    width: 130%;
     }
   }
 }
