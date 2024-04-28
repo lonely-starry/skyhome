@@ -15,12 +15,19 @@
         <Icon size="16">
           <QuoteLeft />
         </Icon>
+<<<<<<< HEAD
         <Transition name="fade" mode="out-in">
           <div :key="descriptionText.hello + descriptionText.text" class="text">
             <p>{{ descriptionText.hello }}</p>
             <p>{{ descriptionText.text }}</p>
           </div>
         </Transition>
+=======
+        <div class="text">
+          <p>{{ descriptionText.hello }}</p>
+          <p>{{ descriptionText.text }}</p>
+        </div>
+>>>>>>> skyhome/dev
         <Icon size="16">
           <QuoteRight />
         </Icon>
@@ -186,25 +193,6 @@ watch(
     }
     .description {
       margin-top: 2.5rem;
-    }
-  }
-  .typewriter {
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-block;
-    overflow: hidden;
-    animation: typing 5s steps(100, start) 1;
-    /* 文字逐个出现 */
-  }
-
-  /* 打字动画 */
-  @keyframes typing {
-    from {
-    width: 0;
-    }
-
-    to {
-    width: 130%;
     }
   }
 }
