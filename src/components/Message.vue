@@ -15,19 +15,12 @@
         <Icon size="16">
           <QuoteLeft />
         </Icon>
-<<<<<<< HEAD
         <Transition name="fade" mode="out-in">
           <div :key="descriptionText.hello + descriptionText.text" class="text">
             <p>{{ descriptionText.hello }}</p>
             <p>{{ descriptionText.text }}</p>
           </div>
         </Transition>
-=======
-        <div class="text">
-          <p>{{ descriptionText.hello }}</p>
-          <p>{{ descriptionText.text }}</p>
-        </div>
->>>>>>> skyhome/dev
         <Icon size="16">
           <QuoteRight />
         </Icon>
